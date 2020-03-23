@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% block content %}
+<form action="/result" method="POST">
+
+  <!-- Carat -->
+  <div>
+    <label for="carat">Carat:</label>
+    <input type="number" id="carat" name="carat" value=1>
+  </div>
+
+  <!-- Cut -->
+  <div>
+    <label for="cut">Cut:</label>
+    <select id="cut" name="cut">
+      <option value="Ideal">Ideal</option>
+      <option value="Premium">Premium</option>
+      <option selected="Very Good" value="Very Good">Very Good</option>
+      <option value="Good">Good</option>
+      <option value="Fair">Fair</option>
+    </select>
+  </div>
+
+  <!-- Color -->
+  <div>
+    <label for="color">Color:</label>
+    <select id="color" name="color">
+      <option value="D">D</option>
+      <option selected="E" value="E">E</option>
+      <option value="F">F</option>
+      <option value="G">G</option>
+      <option value="H">H</option>
+      <option value="I">I</option>
+      <option value="J">J</option>
+    </select>
+  </div>
+
+  <!-- Clarity -->
+  <div>
+    <label for="clarity">Clarity:</label>
+    <select id="clarity" name="clarity">
+      <option selected="IF" value="IF">Internally Flawless</option>
+      <option value="VVS1">Very, Very Small Inclusions (I)</option>
+      <option value="VVS2">Very, Very Small Inclusions (II)</option>
+      <option value="VS1">Very Small Inclusions (I)</option>
+      <option value="VS2">Very Small Inclusions (II)</option>
+      <option value="SI1">Small Inclusions (I)</option>
+      <option value="SI2">Small Inclusions (II)</option>
+      <option value="I1">Imperfect</option>
+    </select>
+  </div>
+
+  <!-- Submit -->
+  <div>
+    <button type="submit">Go</button>
+  </div>
+
+</form>
+{% endblock %}
