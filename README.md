@@ -1,6 +1,6 @@
 
 
-<img src="/Users/max/Repos/diamond/static/diamond.jpg" alt="diamond" width=200 />
+<img src="https://raw.githubusercontent.com/maxhumber/diamond/master/static/diamond.jpg" alt="diamond" width=200 />
 
 
 
