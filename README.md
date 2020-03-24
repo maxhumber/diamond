@@ -1,6 +1,16 @@
-### Diamond
 
-1. Setup env
+
+<img src="/Users/max/Repos/diamond/static/diamond.jpg" alt="diamond" width=200 />
+
+
+
+Example app for [Minimum Viable Machine Learning](https://github.com/maxhumber/katacoda-scenarios)
+
+
+
+##### Setup
+
+1. Create environment:
 
 ```
 python -m venv .venv
@@ -12,25 +22,25 @@ python -m venv .venv
 source .venv/bin/activate
 ```
 
-3. Install depends
+3. Install dependencies:
 
 ```
 pip install gunicorn scikit-learn pandas sklearn-pandas flask
 ```
 
-4. Freeze depends
+4. Freeze dependencies:
 
 ```
 pip freeze > requirements.txt
 ```
 
-5. Run model
+5. Run model:
 
 ```
 python model.py
 ```
 
-6. Run app
+6. Run app:
 
 ```
 python app.py
