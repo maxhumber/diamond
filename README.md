@@ -1,14 +1,14 @@
 
 
-<img src="https://raw.githubusercontent.com/maxhumber/diamond/master/static/diamond.jpg" alt="diamond" width=200 />
+<img src="https://raw.githubusercontent.com/maxhumber/diamond/master/static/diamond.png" alt="diamond" width=200 />
 
 
 
-Example app for [Minimum Viable Machine Learning](https://github.com/maxhumber/katacoda-scenarios)
+Demo App for [Minimum Viable Machine Learning](https://www.katacoda.com/orm-max-humber/courses/mvml)
 
 
 
-##### Setup
+##### Local Environment Setup
 
 1. Create environment:
 
